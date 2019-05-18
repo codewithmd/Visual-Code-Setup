@@ -3,11 +3,15 @@
 
 ### Theme
 
-I use the `Oceanic Next` theme with the dimmed bg option. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=naumovs.theme-oceanicnext)
+I use the `Dracula` theme with the dimmed bg option. [Link &rarr;](https://draculatheme.com/visual-studio-code/)
 
 ### My Extensions
 
 For each of the extensions, read the overview page in order to learn how to use it.
+
+`Javascript Console Utils` to make easy console.log() with a short-cut key. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=whtouche.vscode-js-console-utils)
+
+`Live Server` It provides a development local server for static/dynamic pages. [Link &rarr;](https://github.com/ritwickdey/vscode-live-server/blob/master/docs/settings.md)
 
 `Auto Close Tag` to automatically close HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
@@ -21,6 +25,8 @@ For each of the extensions, read the overview page in order to learn how to use 
 
 `Prettier` to automatically format code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
+`Material Icon Theme` to make the Icons looks amazing. [Link &rarr;](https://github.com/PKief/vscode-material-icon-theme)
+
 ### Other extensions I use (will keep it updated) 
 
 `Project Manager` to easily switch between projects. One of the most useful extensions. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
@@ -31,23 +37,35 @@ If you want your editor to work and look exactly the same way as mine, you can c
 
 ```
 {
-  "workbench.colorTheme": "Oceanic Next (dimmed bg)",
-  "files.autoSave": "onFocusChange",
-  "editor.minimap.enabled": true,
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": true,
-  "editor.formatOnSave": false,
-
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#333333",
-    "statusBar.noFolderBackground": "#333333",
-    "statusBar.debuggingBackground": "#263238"
-  },
-  "editor.fontSize": 16,
-
-  "css.validate": false,
-  "scss.validate": false,
-  "less.validate": false,
-  "editor.wordWrap": "on"
-}
+    "editor.fontSize": 16,
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.trimFinalNewlines": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#035497",
+        "statusBar.noFolderBackground": "#34495e",
+        "statusBar.debuggingBackground": "#33393b75"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "editor.wordWrap": "on",
+    "sync.gist": "338fae2534f688e41a2b12474c1f3610",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Dracula",
+    "editor.fontWeight": "300",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
+    "files.associations": {
+        "*.scss": "scss"
+    },
 ```
