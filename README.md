@@ -52,7 +52,9 @@ If you want your editor to work and look exactly the same way as mine, you can c
     "workbench.colorCustomizations": {
         "statusBar.background": "#035497",
         "statusBar.noFolderBackground": "#34495e",
-        "statusBar.debuggingBackground": "#33393b75"
+        "statusBar.debuggingBackground": "#33393b75",
+        "tab.activeBackground": "#4f626d",
+        "tab.activeForeground": "#fffdfd",
     },
     "css.validate": false,
     "scss.validate": false,
@@ -68,4 +70,5 @@ If you want your editor to work and look exactly the same way as mine, you can c
     "files.associations": {
         "*.scss": "scss"
     },
+}
 ```
