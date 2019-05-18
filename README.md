@@ -60,7 +60,6 @@ If you want your editor to work and look exactly the same way as mine, you can c
     "scss.validate": false,
     "less.validate": false,
     "editor.wordWrap": "on",
-    "sync.gist": "338fae2534f688e41a2b12474c1f3610",
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "workbench.colorTheme": "Dracula",
