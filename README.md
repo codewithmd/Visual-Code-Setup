@@ -73,10 +73,10 @@ If you want your editor to work and look exactly the same way as mine, you can c
 ```
 ### Code Snippets
 
-Here I have add some code snippets to code faster in Javascript. if you are also working in Javascript then you may try this out.
-It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit ` TAB ` Your custon code will show there. You can even customize.. 
+Here I have added some code snippets to code faster in Javascript. if you are also working in Javascript then you may try this out.
+It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit ` TAB ` Your custom code will show there. You can even customize. 
 
-Yes there is a little learning curv that how to edit these stuffs just google ( ` How to customize code snippets in vs code ?` ) it you will find lots of tutorials online out there.
+Yes, there is a little learning curve that how to edit this stuffs just google ( ` How to customize code snippets in vs code ?` ) it you will find lots of tutorials online out there.
 
 ```
 {
