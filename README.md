@@ -71,3 +71,62 @@ If you want your editor to work and look exactly the same way as mine, you can c
     },
 }
 ```
+### Code Snippets
+
+Here I have add some code snippets to code faster in Javascript. if you are also working in Javascript then you may try this out.
+It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit ` TAB ` Your custon code will show there. You can even customize.. 
+
+Yes there is a little learning curv that how to edit these stuffs just google ( ` How to customize code snippets in vs code ?` ) it you will find lots of tutorials online out there.
+
+```
+{
+  // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Print to console": {
+    "prefix": "cl",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Log into console"
+  },
+  "Named Function": {
+    "prefix": "nfn",
+    "body": [
+      "function ${1:someName}($2){",
+      "  $3",
+      "}"
+    ],
+    "description": "Named Function"
+  },
+  "Arrow Functon": {
+    "prefix": "afn",
+    "body": [
+      "const ${1:functionName} = ($2) => {",
+      "  $3",
+      "}"
+    ],
+    "description": "Arrow Functon"
+  },
+  "Function Expression": {
+    "prefix": "efn",
+    "body": [
+      "const ${1:functionName} = function($2) {",
+      "  $3",
+      "}"
+    ],
+    "description": "Function Expression"
+  }
+}
+```
