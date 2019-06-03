@@ -19,6 +19,8 @@ For each of the extensions, read the overview page in order to learn how to use 
 
 `Color Highlight` to, as the name says, highlight colors in CSS. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
+`CSS Peek` to, as the name says, Allow you to change your css/scss so easily. Check out the link for more details. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+
 `Paste and Indent` to automatically indent pasted code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
 
 `Path Intellisense` to autocomplete filenames. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
@@ -27,7 +29,7 @@ For each of the extensions, read the overview page in order to learn how to use 
 
 `Material Icon Theme` to make the Icons looks amazing. [Link &rarr;](https://github.com/PKief/vscode-material-icon-theme)
 
-### Other extensions I use (will keep it updated) 
+### Other extensions I use (will keep it updated)
 
 `Project Manager` to easily switch between projects. One of the most useful extensions. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
@@ -37,44 +39,56 @@ If you want your editor to work and look exactly the same way as mine, you can c
 
 ```
 {
-    "editor.fontSize": 16,
-    "files.autoSave": "onFocusChange",
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "window.zoomLevel": 0,
-    "editor.tabSize": 2,
-    "workbench.iconTheme": "material-icon-theme",
-    "files.trimFinalNewlines": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#035497",
-        "statusBar.noFolderBackground": "#34495e",
-        "statusBar.debuggingBackground": "#33393b75",
-        "tab.activeBackground": "#4f626d",
-        "tab.activeForeground": "#fffdfd",
-    },
-    "css.validate": false,
-    "scss.validate": false,
-    "less.validate": false,
-    "editor.wordWrap": "on",
-    "explorer.confirmDelete": false,
-    "explorer.confirmDragAndDrop": false,
-    "workbench.colorTheme": "Dracula",
-    "editor.fontWeight": "300",
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
-    "files.associations": {
-        "*.scss": "scss"
-    },
+  "editor.fontSize": 16,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme",
+  "files.trimFinalNewlines": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#035497",
+    "statusBar.noFolderBackground": "#34495e",
+    "statusBar.debuggingBackground": "#33393b75",
+    // "tab.activeBackground": "#48C9B0",
+    "tab.activeForeground": "#f9fbfc"
+  },
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "underline": "yellow"
+      }
+    }
+  },
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "Dracula",
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code',Consolas, 'Courier New', monospace",
+  "files.associations": {
+    "*.scss": "scss"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.cursorStyle": "line",
+  "git.enableSmartCommit": true,
+  "workbench.editor.showTabs": false // Here I set it to false, use CRTL + TAB to navigate between files.
 }
+
 ```
 ### Code Snippets
 
 Here I have added some code snippets to code faster in Javascript. if you are also working in Javascript then you may try this out.
-It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit ` TAB ` Your custom code will show there. You can even customize. 
+It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit ` TAB ` Your custom code will show there. You can even customize.
 
 Yes, there is a little learning curve that how to edit this stuffs just google ( ` How to customize code snippets in vs code ?` ) it you will find lots of tutorials online out there.
 
@@ -96,9 +110,7 @@ Yes, there is a little learning curve that how to edit this stuffs just google (
 
   "Print to console": {
     "prefix": "cl",
-    "body": [
-      "console.log($1);"
-    ],
+    "body": ["console.log($1)"],
     "description": "Log into console"
   },
   "Named Function": {
