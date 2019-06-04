@@ -1,37 +1,36 @@
 # Visual-Code-Setup
 
+## Theme
 
-### Theme
+I use the `Dracula` theme with the dimmed bg option. [Dracula &rarr;](https://draculatheme.com/visual-studio-code/)
 
-I use the `Dracula` theme with the dimmed bg option. [Link &rarr;](https://draculatheme.com/visual-studio-code/)
-
-### My Extensions
+#### My Extensions
 
 For each of the extensions, read the overview page in order to learn how to use it.
 
-`Javascript Console Utils` to make easy console.log() with a short-cut key. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=whtouche.vscode-js-console-utils)
+`Javascript Console Utils` to make easy console.log() with a short-cut key. [Javascript Console Utils &rarr;](https://marketplace.visualstudio.com/items?itemName=whtouche.vscode-js-console-utils)
 
-`Live Server` It provides a development local server for static/dynamic pages. [Link &rarr;](https://github.com/ritwickdey/vscode-live-server/blob/master/docs/settings.md)
+`Live Server` It provides a development local server for static/dynamic pages. [Live Server &rarr;](https://github.com/ritwickdey/vscode-live-server/blob/master/docs/settings.md)
 
-`Auto Close Tag` to automatically close HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+`Auto Close Tag` to automatically close HTML tags. [Auto Close Tag &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 
-`Auto Rename Tag` to automatically change matching HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+`Auto Rename Tag` to automatically change matching HTML tags. [Auto Rename Tag &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-`Color Highlight` to, as the name says, highlight colors in CSS. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+`Color Highlight` to, as the name says, highlight colors in CSS. [Color Highlight &rarr;](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 
-`CSS Peek` to, as the name says, Allow you to change your css/scss so easily. Check out the link for more details. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
+`CSS Peek` to, as the name says, Allow you to change your css/scss so easily. Check out the link for more details. [CSS Peek &rarr;](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
-`Paste and Indent` to automatically indent pasted code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
+`Paste and Indent` to automatically indent pasted code. [Paste and Indent &rarr;](https://marketplace.visualstudio.com/items?itemName=Rubymaniac.vscode-paste-and-indent)
 
-`Path Intellisense` to autocomplete filenames. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+`Path Intellisense` to autocomplete filenames. [Path Intellisense &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-`Prettier` to automatically format code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+`Prettier` to automatically format code. [Prettier &rarr;](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-`Material Icon Theme` to make the Icons looks amazing. [Link &rarr;](https://github.com/PKief/vscode-material-icon-theme)
+`Material Icon Theme` to make the Icons looks amazing. [Material Icon Theme &rarr;](https://github.com/PKief/vscode-material-icon-theme)
 
-### Other extensions I use (will keep it updated)
+`Project Manager` to easily switch between projects. One of the most useful extensions. [Project Manager &rarr;](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
-`Project Manager` to easily switch between projects. One of the most useful extensions. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+`HTML Css Support` Very handy tool for designers.. Give you the suggestion for the css classes & ids in html page [HTML Css Support &rarr;](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
 
 ### Settings
 
@@ -85,12 +84,15 @@ If you want your editor to work and look exactly the same way as mine, you can c
 }
 
 ```
+
+[CTRL + TAB][]
+
 ### Code Snippets
 
 Here I have added some code snippets to code faster in Javascript. if you are also working in Javascript then you may try this out.
-It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit ` TAB ` Your custom code will show there. You can even customize.
+It's like emmet for HTML/CSS. You just add some short-cut and when you type that short-cut and hit `TAB` Your custom code will show there. You can even customize.
 
-Yes, there is a little learning curve that how to edit this stuffs just google ( ` How to customize code snippets in vs code ?` ) it you will find lots of tutorials online out there.
+Yes, there is a little learning curve that how to edit this stuffs just google ( `How to customize code snippets in vs code ?` ) it you will find lots of tutorials online out there.
 
 ```
 {
